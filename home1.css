@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* height: 100vh; */
+    /* width: 100%; */
+    /* background-color:palevioletred; */
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url("bgpic5.jpeg");
+    background-repeat: no-repeat;
+    background-size: 2000px 900px;
+    
+   
+}
+.nav1{
+    height: 100px;
+    width: 100%;
+    /* background-color: aqua; */
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height:170px;
+    /* background-color:rgb(95, 95, 157) ; */
+}
+ul{
+    display: flex;
+    justify-content: center;
+
+}
+li{
+    list-style: none;
+    margin: 0 23px;
+}
+b{
+    color: darkmagenta;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+    font-size: 25px;
+}
+a:hover{
+    color:orangered;
+    font-size: 25px;
+    
+}
+main hr{
+    border: 0;
+    background: rgb(116, 116, 225);
+    height: 1.0px;
+    margin: 40px 84px;
+}
+.left{
+    font-size: 2.5rem;
+}
+.img1{
+    height: 350px;
+    width: 250px;
+    border-radius: 50%;
+    /* border-top-right-radius: 5%;
+    border-top-left-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%; */
+    
+}
+.firstSection{
+    display: flex;
+    justify-content: space-around;
+    /* margin: 23px 0; */
+    margin: 40px 0;
+    align-items: center;
+}
+.firstSection > div{
+    width: 30%;
+    /* background-color: red; */
+}
+.leftSection{
+    /* background-color: red; */
+    /* width: 34px; */
+    font-size: 2rem;
+    margin: 30px;
+}
+.btn{
+    padding: 8px;
+    background-color: blueviolet;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+    top: 1%;
+}
+.btn1{
+    display: flex;
+    justify-content: space-around;
+    
+}
+.bottom{
+    height: 20px;
+    width: 10%;
+    border-radius: 50%;
+}
+.rightSection img{
+    /* background-color: red; */
+    width: 80%;
+   
+}
+.purple{
+    color: darkred;
+    font-size: 90px;
+}
+.text-gray{
+    color: darkblue;
+}
+#element{
+    color:darkred;
+}
+.secondSection{
+    max-width:60vw;
+    margin: auto;
+    height: 80vh;
+}
+
+
+.box1{
+    background-color: white;
+    width: 70vw;
+    height: 2px;
+    margin: -47px 0;
+    /* display: flex; */
+}
+marquee {
+    background-color: lightgreen;
+    color: blue;
+    font-size: 25px;
+    height: 30%;
+}
+.p1{
+    font-size:20px;
+}
